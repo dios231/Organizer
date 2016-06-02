@@ -17,7 +17,6 @@ public class Buttons {
 	protected JTextArea TextArea;
 	
 	//It must called first than the "neTextArea" method.
-	//PRPEI NA TO FIXARW!!!!
 	public ArrayList<JButton> fetchButtonsList(){
 		Lunar calendar = Lunar.InitNewCalendar();
 		

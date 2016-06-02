@@ -32,7 +32,7 @@ public class Renderer {
 		
 		MasterPanel.add(NotePanel, BorderLayout.CENTER);
 		
-		JTextArea TextArea = Buttons.newTextArea(15, 20);//FAIL AUTO - PREPEI NA TO FIXARW!!!
+		JTextArea TextArea = Buttons.newTextArea(15, 20);
 		MasterPanel.add(TextArea, BorderLayout.PAGE_END);
 		
 		Frame.add(MasterPanel,  BorderLayout.CENTER);
